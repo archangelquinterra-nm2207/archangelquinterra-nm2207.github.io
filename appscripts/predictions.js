@@ -34,7 +34,7 @@ function recapPredictions() {
     } else if (driversChampion == "Fernando Alonso") {
       driversChampionImage.setAttribute("src", "resources/FernandoAlonso.jpg");
     } else {
-      driversChampionImage.setAttribute("src", "resources/Other.jpg");
+      driversChampionImage.setAttribute("src", "resources/Others.jpg");
     }
     driversChampionImage.setAttribute("width", "500px");
     driversChampionImage.setAttribute("height", "300px");
