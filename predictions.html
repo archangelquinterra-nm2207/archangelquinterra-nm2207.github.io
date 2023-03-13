@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <link rel="stylesheet" type="text/css" href="css/predictions.css">
+    <script defer type="text/javascript" src="appscripts/predictions.js"></script>
+
+    <title>Formula 1 2023 Predictions!</title>
+  </head>
+
+
+  <body>
+
+    <div id="title"> 
+      <p>Formula 1 2023 Season Predictions<p>
+    </div>
+
+    <div class="column">
+    <div id="content">
+    <p>Now it's your time to predict the 2023 Season!</p>
+    <p>Scared you will forget your predictions? </p>
+    <p>Fret not! Just input your predictions below, and we will generate a page recapping your predictions! </p>
+    </div>
+
+    <div id="rightColumn">
+    <table>
+      <tr>
+      <td>Which driver will win the drivers' championship?</td>
+      <td><select name="driversChampion" id="drivers">
+            <option value="Max Verstappen">Max Verstappen (Red Bull)</option>
+            <option value="Charles Leclerc">Charles Leclerc (Ferrari)</option>
+            <option value="Sergio Perez">Sergio Perez (Red Bull)</option>
+            <option value="George Russell">George Russell (Mercedes)</option>
+            <option value="Carlos Sainz">Carlos Sainz (Ferrari)</option>
+            <option value="Lewis Hamilton">Lewis Hamilton (Mercedes)</option>
+            <option value="Lando Norris">Lando Norris (McLaren)</option>
+            <option value="Fernando Alonso">Fernando Alonso (Aston Martin)</option>
+            <option value="an unexpected black horse">Others</option>
+          </select></td>
+      </tr>
+      <tr>
+        <td>Which team will win the constructors' championship?</td>
+        <td><select name="constructorsChampion" id="constructors">
+            <option value="Red Bull">Red Bull</option>
+            <option value="Ferrari">Ferrari</option>
+            <option value="Mercedes">Mercedes</option>
+            <option value="Alpine">Alpine</option>
+            <option value="McLaren">McLaren</option>
+            <option value="Alfa Romeo">Alfa Romeo</option>
+            <option value="Aston Martin">Aston Martin</option>
+            <option value="Haas">Haas</option>
+            <option value="AlphaTauri">AlphaTauri</option>
+            <option value="Williams">Williams</option>
+          </select>
+        </td>
+      </tr>
+      <tr>
+        <td>Which team will be a pleasant surprise?</td>
+        <td><select name="teamSurprise" id="surprise">
+            <option value="Red Bull">Red Bull</option>
+            <option value="Ferrari">Ferrari</option>
+            <option value="Mercedes">Mercedes</option>
+            <option value="Alpine">Alpine</option>
+            <option value="McLaren">McLaren</option>
+            <option value="Alfa Romeo">Alfa Romeo</option>
+            <option value="Aston Martin">Aston Martin</option>
+            <option value="Haas">Haas</option>
+            <option value="AlphaTauri">AlphaTauri</option>
+            <option value="Williams">Williams</option>
+          </select>
+        </td>
+      </tr>
+
+      <tr>
+        <td>Which rookie will win the "Rookie of the Year" award? </td>
+        <td><select id="rookieOfTheYear" >
+        <option value="Nyck de Vries">Nyck de Vries - AlphaTauri</option>
+        <option value="Oscar Piastri">Oscar Piastri - McLaren</option>
+        <option value="Logan Sargeant">Logan Sargeant - Williams</option>
+        </select></td>
+      </tr>
+     
+      <tr>
+        <td>Your Name</td>
+        <td><input type="text" id="name" value placeholder="Your Name"></td>
+      </tr>
+
+      <tr>
+        <td> </td>
+      </tr>
+
+      <tr>
+        <td><input type="submit" value="Recap my predictions!" id="recapButton"></td>
+      </tr>
+    </table>
+    </div>
+    </div>
+
+    <div id="footer">
+    <p id="recapTitle"></p>
+
+    <p id="driversChampionResult"></p>
+
+    <img id="driversChampionImage"></img>
+
+    <p id="constructorsChampionResult"></p>
+
+    <img id="constructorsChampionImage"></img>
+
+    <p id="teamSurpriseResult"></p>
+
+    <img id="teamSurpriseImage"></img>
+
+    <p id="rookieResult"></p>
+
+    <img id="rookieImage"></img>
+
+    <p id="greeting"></p>
+  </div>
+  
+  </body>
+
+
+</html>
