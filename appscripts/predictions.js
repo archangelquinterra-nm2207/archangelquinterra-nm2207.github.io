@@ -59,7 +59,7 @@ function recapPredictions() {
       constructorsChampionImage.setAttribute("src", "resources/AstonMartin.jpg");
     } else if (constructorsChampion == "Haas") {
       constructorsChampionImage.setAttribute("src", "resources/Haas.jpg");
-    } else if (constructorsChampion == "Alpha Tauri") {
+    } else if (constructorsChampion == "AlphaTauri") {
       constructorsChampionImage.setAttribute("src", "resources/AlphaTauri.jpg");
     } else {
       constructorsChampionImage.setAttribute("src", "resources/Williams.jpg");
@@ -87,7 +87,7 @@ function recapPredictions() {
       teamSurpriseImage.setAttribute("src", "resources/AstonMartin.jpg");
     } else if (teamSurprise == "Haas") {
       teamSurpriseImage.setAttribute("src", "resources/Haas.jpg");
-    } else if (teamSurprise == "Alpha Tauri") {
+    } else if (teamSurprise == "AlphaTauri") {
       teamSurpriseImage.setAttribute("src", "resources/AlphaTauri.jpg");
     } else {
       teamSurpriseImage.setAttribute("src", "resources/Williams.jpg");
