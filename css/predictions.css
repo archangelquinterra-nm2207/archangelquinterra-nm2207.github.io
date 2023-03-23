@@ -1,17 +1,21 @@
+/* CSS File for predictions.html */
+
+/* For the title ID, the box with "Formula 1 2023 Season Predictions */
 #title {
-    font-family: "monaco", monospace;
+    font-family: "monaco", monospace; 
     font-size: 50px;
     font-weight: bold;
     text-align: center;
     background-color: white;
     border: 10px solid;
-    border-color: #ff1801;
+    border-color: #ff1801; 
     background-color: #c6c6c6;
     margin: auto;
     height: 15%;
     padding: 5px;
   }
 
+/* For the two columns under the title ID */
   .column {
     display: grid;
     grid-template-columns: 25% 75%;
@@ -20,6 +24,7 @@
     border-color: #ff1801;
   }
 
+/* For the left column in the body section containing instruction text */
   #content {
     background-color:#c6c6c6;
     border: 10px;
@@ -33,6 +38,7 @@
     padding: 15px;
   }
 
+/* For the right column in the body section containing the predictions form and button */
   #rightColumn {
     background-color: #c6c6c6;
     font-family: "monaco", monospace;
@@ -42,6 +48,8 @@
     border-color: #ff1801;
   }
 
+
+/* To style the "Recap my predictions!" button */
   #recapButton {
     background-color: #80142b;
     text-align: center;
@@ -51,6 +59,7 @@
     padding: 15px 15px;
   }
 
+/* To style the box under the two columns where the prediction texts and images will appear after the recap button is clicked */
   #footer {
     background-color: #c6c6c6;
     border: 10px solid;
