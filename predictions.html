@@ -1,28 +1,28 @@
 <!DOCTYPE html>
 <html lang="en">
 
-  <head>
+  <head> <!-- Link to CSS and JS -->
     <link rel="stylesheet" type="text/css" href="css/predictions.css">
     <script defer type="text/javascript" src="appscripts/predictions.js"></script>
 
-    <title>Formula 1 2023 Predictions!</title>
+    <title>Formula 1 2023 Predictions!</title> 
   </head>
 
 
   <body>
 
-    <div id="title"> 
+    <div id="title"> <!-- Page header -->
       <p>Formula 1 2023 Season Predictions<p>
     </div>
 
-    <div class="column">
-    <div id="content">
+    <div class="column"> <!-- Page body, comprises two columns -->
+    <div id="content"> <!-- First/left column, more of introduction and text instructions -->
     <p>Now it's your time to predict the 2023 Season!</p>
     <p>Scared you will forget your predictions? </p>
     <p>Fret not! Just input your predictions below, and we will generate a page recapping your predictions! </p>
     </div>
 
-    <div id="rightColumn">
+    <div id="rightColumn"> <!-- Second/right column, contains form where users can pick their predictions -->
     <table>
       <tr>
       <td>Which driver will win the drivers' championship?</td>
@@ -89,14 +89,14 @@
         <td> </td>
       </tr>
 
-      <tr>
-        <td><input type="submit" value="Recap my predictions!" id="recapButton"></td>
+      <tr> <!-- Clicking this button will submit the predictions -->
+        <td><input type="submit" value="Recap my predictions!" id="recapButton"></td> 
       </tr>
     </table>
     </div>
     </div>
 
-    <div id="footer">
+    <div id="footer"> <!-- Containers to display images and text based on the user's choices in the form above. Content will only be displayed after clicking on the "Recap my predictions!" button above. -->
     <p id="recapTitle"></p>
 
     <p id="driversChampionResult"></p>
