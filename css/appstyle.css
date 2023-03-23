@@ -2,14 +2,14 @@
 
 /* For the title ID, the box with "Formula 1 2023 Season Predictions */
 #title {
-  font-family: "monaco", monospace;
-  font-size: 50px;
+  font-family: "monaco", monospace; /* Font generally monospace as it is closest to text on the f1 website */
+  font-size: 50px; 
   font-weight: bold;
   text-align: center;
   background-color: white;
   border: 10px solid;
-  border-color: #ff1801;
-  background-color: #c6c6c6;
+  border-color: #ff1801; /* All border colors follow the color used in f1 official branding */
+  background-color: #c6c6c6; /* All background color follows Mercedes grey... because Merc is my favorite team!! */
   margin: auto;
   height: 15%;
   padding: 5px;
@@ -18,7 +18,7 @@
 /* For the two columns under the title ID */
 .column {
   display: grid;
-  grid-template-columns: 25% 75%;
+  grid-template-columns: 25% 75%; /* Used to split the row into 2 unevenly-sized columns */
   border-left: 10px solid;
   border-right: 10px solid;
   border-color: #ff1801;
@@ -28,35 +28,6 @@
   text-align: left;
   padding-left: 10px;
   padding-right: 10px;
-}
-
-/* For any text tagged as h2 */
-h2 {
-  text-align: center
-}
-
-/* For the box that has "are you ready to make predictions" and a button */
-#footer {
-  font-family: "monaco", monospace;
-  font-size: 15px;
-  text-align: left;
-  line-height: 1;
-  border: 10px solid;
-  border-color: #ff1801;
-  background-color: #c6c6c6;
-  margin: auto;
-  height: 5%;
-  padding: 10px;
-}
-
-/* To style the "I'm ready to make my predictions!" button */
-#clickButton {
-  background-color: #80142b;
-  text-align: center;
-  color: white;
-  font-family: "monaco", monospace;
-  font-style: bold;
-  padding: 15px 15px;
 }
 
 /* For the left column in the body section containing text and an image of Max Verstappen */
@@ -86,14 +57,45 @@ h2 {
   border-color: #ff1801;
 }
 
+/* For the line chart inside the right column */
+.lineChart {
+    max-width: 1000px;
+    max-height: 600px;
+    margin: 20px auto;
+  }
+
 /* For the small texts that appear: submission requirements in the title id and under the chart */
 #tip {
 text-align: right;
 font-size: 10px;
 }
 
-.lineChart {
-    max-width: 1000px;
-    max-height: 600px;
-    margin: 20px auto;
-  }
+/* To style the "I'm ready to make my predictions!" button */
+#clickButton {
+  background-color: #80142b; /* Follows Mercedes red */
+  text-align: center;
+  color: white;
+  font-family: "monaco", monospace;
+  font-style: bold;
+  padding: 15px 15px;
+}
+
+/* For any text tagged as h2 */
+h2 {
+  text-align: center
+}
+
+/* For the box that has "are you ready to make predictions" and a button */
+#footer {
+  font-family: "monaco", monospace;
+  font-size: 15px;
+  text-align: left;
+  line-height: 1;
+  border: 10px solid;
+  border-color: #ff1801;
+  background-color: #c6c6c6;
+  margin: auto;
+  height: 5%;
+  padding: 10px;
+}
+
