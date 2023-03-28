@@ -19,7 +19,7 @@ function recapPredictions() {
 
     //Drivers' Champion predictions
     var driversChampion = document.getElementById("drivers").value; //get the user's prediction for driver's champion
-    document.getElementById("driversChampionResult").innerHTML = "I predict that " + driversChampion + " will win the 2023 Drivers' Champion!" //use the predictions obtained to create a statement  
+    document.getElementById("driversChampionResult").innerHTML = "I predict that " + driversChampion + " will become the 2023 Drivers' Champion!" //use the predictions obtained to create a statement  
     console.log(driversChampion); //an internal test to see whether the users' drivers' champion choice is correctly extracted
       var driversChampionImage = document.getElementById("driversChampionImage"); //places the image of the user's drivers' champion choice on the corresponding container
    //if else statement that will show an image according to the user's choice
